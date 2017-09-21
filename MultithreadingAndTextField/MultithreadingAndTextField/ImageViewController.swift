@@ -19,7 +19,6 @@ class ImageViewController: UIViewController {
       if view.window != nil {
         fetchImage()
       }
-      
     }
   }
   
@@ -36,7 +35,6 @@ class ImageViewController: UIViewController {
           } 
         }
       }
-      
     }
   }
   

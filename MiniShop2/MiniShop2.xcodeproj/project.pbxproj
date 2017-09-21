@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84202DEC1F741724005709DF /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202DEB1F741724005709DF /* UIViewControllerExtension.swift */; };
+		84202DF01F74244D005709DF /* AddProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202DEF1F74244D005709DF /* AddProductController.swift */; };
+		84202DF21F742587005709DF /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202DF11F742587005709DF /* ProductController.swift */; };
+		84202DF41F7425EB005709DF /* ProductCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84202DF31F7425EB005709DF /* ProductCellController.swift */; };
+		84224C071F716D87004ABB5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84224C061F716D87004ABB5F /* AppDelegate.swift */; };
+		84224C0C1F716D87004ABB5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84224C0A1F716D87004ABB5F /* Main.storyboard */; };
+		84224C0F1F716D87004ABB5F /* MiniShop2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84224C0D1F716D87004ABB5F /* MiniShop2.xcdatamodeld */; };
+		84224C111F716D87004ABB5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84224C101F716D87004ABB5F /* Assets.xcassets */; };
+		84224C141F716D87004ABB5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84224C121F716D87004ABB5F /* LaunchScreen.storyboard */; };
+		84224C2A1F7172F6004ABB5F /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84224C291F7172F6004ABB5F /* DB.swift */; };
+		846492351F7299DC007A66AE /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8464922D1F7299DC007A66AE /* add.png */; };
+		846492361F7299DC007A66AE /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 8464922E1F7299DC007A66AE /* gallery.png */; };
+		846492381F7299DC007A66AE /* product.png in Resources */ = {isa = PBXBuildFile; fileRef = 846492301F7299DC007A66AE /* product.png */; };
+		846492391F7299DC007A66AE /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 846492311F7299DC007A66AE /* save.png */; };
+		8464923A1F7299DC007A66AE /* sell.png in Resources */ = {isa = PBXBuildFile; fileRef = 846492321F7299DC007A66AE /* sell.png */; };
+		8464923B1F7299DC007A66AE /* shop.ico in Resources */ = {isa = PBXBuildFile; fileRef = 846492331F7299DC007A66AE /* shop.ico */; };
+		8464923C1F7299DC007A66AE /* statistic.png in Resources */ = {isa = PBXBuildFile; fileRef = 846492341F7299DC007A66AE /* statistic.png */; };
+		8464923E1F72A478007A66AE /* menu-threeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 8464923D1F72A478007A66AE /* menu-threeline.png */; };
+		846492401F72A4E3007A66AE /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464923F1F72A4E3007A66AE /* SideMenuController.swift */; };
+		846492421F72ACBB007A66AE /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846492411F72ACBB007A66AE /* UI.swift */; };
+		846492481F72AF5E007A66AE /* SellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846492471F72AF5E007A66AE /* SellController.swift */; };
+		8464924D1F72B0F6007A66AE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464924C1F72B0F6007A66AE /* SWRevealViewController.m */; };
+		8464924F1F72BC6C007A66AE /* AddItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464924E1F72BC6C007A66AE /* AddItemController.swift */; };
+		846492511F72C01A007A66AE /* ItemCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846492501F72C01A007A66AE /* ItemCellController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84202DEB1F741724005709DF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		84202DEF1F74244D005709DF /* AddProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddProductController.swift; path = Product/AddProductController.swift; sourceTree = "<group>"; };
+		84202DF11F742587005709DF /* ProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductController.swift; path = Product/ProductController.swift; sourceTree = "<group>"; };
+		84202DF31F7425EB005709DF /* ProductCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCellController.swift; path = Product/ProductCellController.swift; sourceTree = "<group>"; };
+		84224C031F716D87004ABB5F /* MiniShop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniShop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84224C061F716D87004ABB5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84224C0B1F716D87004ABB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84224C0E1F716D87004ABB5F /* MiniShop2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniShop2.xcdatamodel; sourceTree = "<group>"; };
+		84224C101F716D87004ABB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		84224C131F716D87004ABB5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84224C151F716D87004ABB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84224C291F7172F6004ABB5F /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		8464922D1F7299DC007A66AE /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		8464922E1F7299DC007A66AE /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		846492301F7299DC007A66AE /* product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product.png; sourceTree = "<group>"; };
+		846492311F7299DC007A66AE /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		846492321F7299DC007A66AE /* sell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell.png; sourceTree = "<group>"; };
+		846492331F7299DC007A66AE /* shop.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = shop.ico; sourceTree = "<group>"; };
+		846492341F7299DC007A66AE /* statistic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statistic.png; sourceTree = "<group>"; };
+		8464923D1F72A478007A66AE /* menu-threeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-threeline.png"; sourceTree = "<group>"; };
+		8464923F1F72A4E3007A66AE /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		846492411F72ACBB007A66AE /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		846492471F72AF5E007A66AE /* SellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SellController.swift; path = "Sell items/SellController.swift"; sourceTree = "<group>"; };
+		8464924A1F72B0F5007A66AE /* MiniShop2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniShop2-Bridging-Header.h"; sourceTree = "<group>"; };
+		8464924B1F72B0F6007A66AE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8464924C1F72B0F6007A66AE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8464924E1F72BC6C007A66AE /* AddItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemController.swift; path = "Sell items/AddItemController.swift"; sourceTree = "<group>"; };
+		846492501F72C01A007A66AE /* ItemCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCellController.swift; path = "Sell items/ItemCellController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84224C001F716D87004ABB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84224BFA1F716D87004ABB5F = {
+			isa = PBXGroup;
+			children = (
+				84224C051F716D87004ABB5F /* MiniShop2 */,
+				84224C041F716D87004ABB5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84224C041F716D87004ABB5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84224C031F716D87004ABB5F /* MiniShop2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84224C051F716D87004ABB5F /* MiniShop2 */ = {
+			isa = PBXGroup;
+			children = (
+				84224C211F716F97004ABB5F /* Library */,
+				84224C1B1F716E2F004ABB5F /* Controller */,
+				84224C1C1F716E2F004ABB5F /* Extension */,
+				84224C1D1F716E2F004ABB5F /* Helper */,
+				84224C1E1F716E2F004ABB5F /* Model */,
+				84224C1F1F716E2F004ABB5F /* Resources */,
+				84224C201F716E2F004ABB5F /* View */,
+				84224C061F716D87004ABB5F /* AppDelegate.swift */,
+				84224C151F716D87004ABB5F /* Info.plist */,
+			);
+			path = MiniShop2;
+			sourceTree = "<group>";
+		};
+		84224C1B1F716E2F004ABB5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				846492461F72AF03007A66AE /* Side menu */,
+				846492451F72AEFB007A66AE /* Statistic */,
+				846492441F72AEEC007A66AE /* Product */,
+				846492431F72AED5007A66AE /* Sell items */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84224C1C1F716E2F004ABB5F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84202DEB1F741724005709DF /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84224C1D1F716E2F004ABB5F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				846492411F72ACBB007A66AE /* UI.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84224C1E1F716E2F004ABB5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84224C0D1F716D87004ABB5F /* MiniShop2.xcdatamodeld */,
+				84224C291F7172F6004ABB5F /* DB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84224C1F1F716E2F004ABB5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8464922C1F7299DC007A66AE /* Images */,
+				84224C101F716D87004ABB5F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84224C201F716E2F004ABB5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84224C0A1F716D87004ABB5F /* Main.storyboard */,
+				84224C121F716D87004ABB5F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84224C211F716F97004ABB5F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8464924B1F72B0F6007A66AE /* SWRevealViewController.h */,
+				8464924C1F72B0F6007A66AE /* SWRevealViewController.m */,
+				8464924A1F72B0F5007A66AE /* MiniShop2-Bridging-Header.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8464922C1F7299DC007A66AE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8464923D1F72A478007A66AE /* menu-threeline.png */,
+				8464922D1F7299DC007A66AE /* add.png */,
+				8464922E1F7299DC007A66AE /* gallery.png */,
+				846492301F7299DC007A66AE /* product.png */,
+				846492311F7299DC007A66AE /* save.png */,
+				846492321F7299DC007A66AE /* sell.png */,
+				846492331F7299DC007A66AE /* shop.ico */,
+				846492341F7299DC007A66AE /* statistic.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		846492431F72AED5007A66AE /* Sell items */ = {
+			isa = PBXGroup;
+			children = (
+				846492471F72AF5E007A66AE /* SellController.swift */,
+				8464924E1F72BC6C007A66AE /* AddItemController.swift */,
+				846492501F72C01A007A66AE /* ItemCellController.swift */,
+			);
+			name = "Sell items";
+			sourceTree = "<group>";
+		};
+		846492441F72AEEC007A66AE /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				84202DEF1F74244D005709DF /* AddProductController.swift */,
+				84202DF11F742587005709DF /* ProductController.swift */,
+				84202DF31F7425EB005709DF /* ProductCellController.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		846492451F72AEFB007A66AE /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Statistic;
+			sourceTree = "<group>";
+		};
+		846492461F72AF03007A66AE /* Side menu */ = {
+			isa = PBXGroup;
+			children = (
+				8464923F1F72A4E3007A66AE /* SideMenuController.swift */,
+			);
+			name = "Side menu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84224C021F716D87004ABB5F /* MiniShop2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84224C181F716D87004ABB5F /* Build configuration list for PBXNativeTarget "MiniShop2" */;
+			buildPhases = (
+				84224BFF1F716D87004ABB5F /* Sources */,
+				84224C001F716D87004ABB5F /* Frameworks */,
+				84224C011F716D87004ABB5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniShop2;
+			productName = MiniShop2;
+			productReference = 84224C031F716D87004ABB5F /* MiniShop2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84224BFB1F716D87004ABB5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84224C021F716D87004ABB5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84224BFE1F716D87004ABB5F /* Build configuration list for PBXProject "MiniShop2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84224BFA1F716D87004ABB5F;
+			productRefGroup = 84224C041F716D87004ABB5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84224C021F716D87004ABB5F /* MiniShop2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84224C011F716D87004ABB5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84224C141F716D87004ABB5F /* LaunchScreen.storyboard in Resources */,
+				84224C111F716D87004ABB5F /* Assets.xcassets in Resources */,
+				8464923A1F7299DC007A66AE /* sell.png in Resources */,
+				846492391F7299DC007A66AE /* save.png in Resources */,
+				846492361F7299DC007A66AE /* gallery.png in Resources */,
+				84224C0C1F716D87004ABB5F /* Main.storyboard in Resources */,
+				846492351F7299DC007A66AE /* add.png in Resources */,
+				8464923B1F7299DC007A66AE /* shop.ico in Resources */,
+				846492381F7299DC007A66AE /* product.png in Resources */,
+				8464923E1F72A478007A66AE /* menu-threeline.png in Resources */,
+				8464923C1F7299DC007A66AE /* statistic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84224BFF1F716D87004ABB5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464924D1F72B0F6007A66AE /* SWRevealViewController.m in Sources */,
+				846492401F72A4E3007A66AE /* SideMenuController.swift in Sources */,
+				84202DEC1F741724005709DF /* UIViewControllerExtension.swift in Sources */,
+				84202DF41F7425EB005709DF /* ProductCellController.swift in Sources */,
+				846492511F72C01A007A66AE /* ItemCellController.swift in Sources */,
+				84224C0F1F716D87004ABB5F /* MiniShop2.xcdatamodeld in Sources */,
+				84224C071F716D87004ABB5F /* AppDelegate.swift in Sources */,
+				84202DF21F742587005709DF /* ProductController.swift in Sources */,
+				84224C2A1F7172F6004ABB5F /* DB.swift in Sources */,
+				846492481F72AF5E007A66AE /* SellController.swift in Sources */,
+				8464924F1F72BC6C007A66AE /* AddItemController.swift in Sources */,
+				846492421F72ACBB007A66AE /* UI.swift in Sources */,
+				84202DF01F74244D005709DF /* AddProductController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84224C0A1F716D87004ABB5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84224C0B1F716D87004ABB5F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		84224C121F716D87004ABB5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84224C131F716D87004ABB5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84224C161F716D87004ABB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84224C171F716D87004ABB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84224C191F716D87004ABB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MiniShop2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = center12.MiniShop2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiniShop2/Library/MiniShop2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84224C1A1F716D87004ABB5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MiniShop2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = center12.MiniShop2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MiniShop2/Library/MiniShop2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84224BFE1F716D87004ABB5F /* Build configuration list for PBXProject "MiniShop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84224C161F716D87004ABB5F /* Debug */,
+				84224C171F716D87004ABB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84224C181F716D87004ABB5F /* Build configuration list for PBXNativeTarget "MiniShop2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84224C191F716D87004ABB5F /* Debug */,
+				84224C1A1F716D87004ABB5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84224C0D1F716D87004ABB5F /* MiniShop2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84224C0E1F716D87004ABB5F /* MiniShop2.xcdatamodel */,
+			);
+			currentVersion = 84224C0E1F716D87004ABB5F /* MiniShop2.xcdatamodel */;
+			name = MiniShop2.xcdatamodeld;
+			path = ../MiniShop2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84224BFB1F716D87004ABB5F /* Project object */;
+}
