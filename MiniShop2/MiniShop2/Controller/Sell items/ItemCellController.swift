@@ -15,7 +15,7 @@ class ItemCellController: UITableViewCell {
   @IBOutlet weak var descriptionLabel: UILabel!
   @IBOutlet weak var productNameLabel: UILabel!
   
-  var product: ItemCellModel?{
+  var product: Products?{
     didSet {
       bindingValueForCell()
     }
@@ -26,13 +26,15 @@ class ItemCellController: UITableViewCell {
       return
     }
     
-    if let _ = productImageView?.image, let imageData = product.productImageData{
-      productImageView.image = UIImage(data: imageData)
+    if let _ = productImageView?.image, let imageData = product.image{
+      productImageView.image = UIImage(data: imageData as Data)
     }
-    if let _ = descriptionLabel?.text, let desc = product.description{
-      descriptionLabel.text = desc
+    if let _ = descriptionLabel?.text{
+      let sellPrice = product.sellPrice
+      let quantity = product.quantity
+      descriptionLabel.text = "Price: \(sellPrice) x \(quantity) = \(sellPrice * quantity)"
     }
-    if let _ = productNameLabel?.text, let name = product.productName{
+    if let _ = productNameLabel?.text, let name = product.name{
       productNameLabel.text = name
     }
     

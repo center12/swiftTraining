@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Entity1" representedClassName="Entity1" syncable="YES" codeGenerationType="class"/>
-    <entity name="Products" representedClassName="Products" syncable="YES" codeGenerationType="class"/>
-    <entity name="Transacsion" representedClassName="Transacsion" syncable="YES" codeGenerationType="class"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Detail" representedClassName=".Detail" syncable="YES" codeGenerationType="category">
+        <attribute name="importPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sellPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="transaction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Transacsion" inverseName="details" inverseEntity="Transacsion" syncable="YES"/>
+    </entity>
+    <entity name="Products" representedClassName=".Products" syncable="YES" codeGenerationType="category">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="importPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sellPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Transacsion" representedClassName=".Transacsion" syncable="YES" codeGenerationType="category">
+        <attribute name="finalPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="profit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="details" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Detail" inverseName="transaction" inverseEntity="Detail" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Products" positionX="-63" positionY="-18" width="128" height="45"/>
-        <element name="Entity1" positionX="-54" positionY="-9" width="128" height="45"/>
-        <element name="Transacsion" positionX="-36" positionY="9" width="128" height="45"/>
+        <element name="Detail" positionX="-54" positionY="-9" width="128" height="133"/>
+        <element name="Products" positionX="187" positionY="24" width="128" height="118"/>
+        <element name="Transacsion" positionX="-351" positionY="-18" width="128" height="88"/>
     </elements>
 </model>
