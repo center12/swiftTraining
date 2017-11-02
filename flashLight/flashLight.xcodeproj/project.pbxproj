@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7B721C921FA977A90007EABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B721C911FA977A90007EABF /* AppDelegate.swift */; };
-		7B721C941FA977A90007EABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B721C931FA977A90007EABF /* ViewController.swift */; };
 		7B721C971FA977A90007EABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B721C951FA977A90007EABF /* Main.storyboard */; };
 		7B721C991FA977A90007EABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B721C981FA977A90007EABF /* Assets.xcassets */; };
 		7B721C9C1FA977A90007EABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B721C9A1FA977A90007EABF /* LaunchScreen.storyboard */; };
+		7B721CA81FAAB0860007EABF /* FlashLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B721CA71FAAB0860007EABF /* FlashLightController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B721C8E1FA977A90007EABF /* flashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B721C911FA977A90007EABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B721C931FA977A90007EABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		7B721C961FA977A90007EABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B721C981FA977A90007EABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7B721C9B1FA977A90007EABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B721C9D1FA977A90007EABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B721CA71FAAB0860007EABF /* FlashLightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashLightController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		7B721CA31FA97A3B0007EABF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B721C931FA977A90007EABF /* ViewController.swift */,
+				7B721CA71FAAB0860007EABF /* FlashLightController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,8 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B721C941FA977A90007EABF /* ViewController.swift in Sources */,
 				7B721C921FA977A90007EABF /* AppDelegate.swift in Sources */,
+				7B721CA81FAAB0860007EABF /* FlashLightController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +333,7 @@
 				7B721CA21FA977A90007EABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

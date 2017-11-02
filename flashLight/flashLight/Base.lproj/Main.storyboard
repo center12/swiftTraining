@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Flash Light Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="flashLight" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FlashLightController" customModule="flashLight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -57,6 +57,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="yUu-T0-q4v"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="sliderRed_ValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="7CL-sx-gfp"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -97,6 +100,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="UB6-ig-9la"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="sliderGreen_ValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="RcA-xz-dDB"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -138,6 +144,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="0lT-Et-iQ3"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="sliderBlue_ValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="bLx-tb-dlg"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -179,6 +188,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="o3W-Zy-77i"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="sliderAlpha_ValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="yxz-dI-Ydt"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -225,15 +237,16 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="colorView" destination="nbT-zE-0Np" id="LuU-Lc-WOl"/>
                         <outlet property="color_preview" destination="nbT-zE-0Np" id="1Cp-Ur-zge"/>
-                        <outlet property="slider_alpha" destination="w5B-6W-cJn" id="Ffb-z7-DJc"/>
-                        <outlet property="slider_blue" destination="pU2-uc-WsR" id="YSE-Wi-4yX"/>
-                        <outlet property="slider_green" destination="8ra-yh-ljg" id="MtF-9O-PTw"/>
-                        <outlet property="slider_red" destination="tFI-Ca-8Ir" id="xv1-j0-BK6"/>
-                        <outlet property="textField_alpha" destination="pFH-DF-otV" id="UWT-Fq-P4O"/>
-                        <outlet property="textField_blue" destination="ojv-fJ-Du2" id="oJp-tZ-HqV"/>
-                        <outlet property="textField_green" destination="zoK-nw-C7K" id="fAf-HM-ZdA"/>
-                        <outlet property="textField_red" destination="r9E-Ur-oWF" id="6wr-hB-4vb"/>
+                        <outlet property="sliderAlpha" destination="w5B-6W-cJn" id="S0L-eU-egd"/>
+                        <outlet property="sliderBlue" destination="pU2-uc-WsR" id="8G2-KQ-THx"/>
+                        <outlet property="sliderGreen" destination="8ra-yh-ljg" id="RAw-CD-qKS"/>
+                        <outlet property="sliderRed" destination="tFI-Ca-8Ir" id="mSm-uH-g0t"/>
+                        <outlet property="txtAlpha" destination="pFH-DF-otV" id="78B-BK-OTw"/>
+                        <outlet property="txtBlue" destination="ojv-fJ-Du2" id="vMF-UE-FfF"/>
+                        <outlet property="txtGreen" destination="zoK-nw-C7K" id="Ei0-pP-THo"/>
+                        <outlet property="txtRed" destination="r9E-Ur-oWF" id="Jmh-tr-MBJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
